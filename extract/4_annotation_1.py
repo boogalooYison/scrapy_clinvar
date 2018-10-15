@@ -34,8 +34,8 @@ def transcript(tmpdict,head):
         end = str(old_list[2]) + ":" + str(old_list[4])
 
         # linux命令行找出转录本，基因，外显子
-        start_cmd = "python  /home/zhanglc/bin/NCTools/NCTools/TransGene.py -p " + start
-        end_cmd = "python  /home/zhanglc/bin/NCTools/NCTools/TransGene.py -p " + end
+        start_cmd = "python  /home/TransGene.py -p " + start
+        end_cmd = "python  /home/TransGene.py -p " + end
         # print("start_cmd is: {} \nend_cmd is: {} \n".format(start_cmd,end_cmd))
 
         # [1:]表示去除第1行
